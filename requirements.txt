@@ -1,0 +1,16 @@
+requests>=2.31
+urllib3>=2.0
+selenium>=4.15
+PyMuPDF>=1.23
+Pillow>=10.0
+python-docx>=1.0
+boto3>=1.34
+dashscope>=1.20
+# OCR（掃描頁 / 文字層亂碼頁）。PaddleOCR 2.x 與 3.x 皆可；首次執行會下載模型
+paddlepaddle
+paddleocr
+# 可選：Tesseract 備援（另需安裝 Tesseract 程式與中文語言包）
+# pytesseract
+# Office（doc/ppt/xls/docx/pptx/xlsx）轉圖：Windows 上透過 COM 呼叫微軟 Office（優先）或 WPS（備援）
+# 需安裝 Microsoft Office 或金山 WPS；pywin32 僅 Windows 需要
+pywin32>=306; sys_platform == "win32"
