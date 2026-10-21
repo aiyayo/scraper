@@ -59,8 +59,8 @@
     "newstext": "[内容]",
     "truetime": "[发布时间戳]"
   },
-  "aliyun_api_key": "sk-dd3f481c55b04c898a704bc64cf8b4bc",
-  "aliyun_app_id": "47def01af92842f2a701348a09eeb25d",
+  "aliyun_api_key": "sk-11111111",
+  "aliyun_app_id": "2222222",
   "aliyun_max_sample_pages": 2,
   "aliyun_prompt": "你是一個專業的文檔分析智能體。請根據提供的文檔資訊與頁面內容，提取並總結出準確的「標題」、「簡介」與「關鍵詞」。\n\n【文檔基本資訊】\n- 原始檔名：{orig_name}\n- 文檔總頁數：{total_pages} 頁\n- 提取文字預覽：\n{text_preview}\n\n【輸出要求】\n請嚴格以純 JSON 格式回傳以下欄位（不要加上 ```json 標記或任何額外說明）：\n{\n  \"title\": \"準確且精煉的文檔標題\",\n  \"summary\": \"文檔核心內容簡介（約 100~200 字，清楚說明文檔用途與重點）\",\n  \"keywords\": [\"關鍵詞1\", \"關鍵詞2\", \"關鍵詞3\", \"關鍵詞4\", \"關鍵詞5\"]\n}",
   "aliyun_retry": 2,
